@@ -1,0 +1,53 @@
+body{
+     background:linear-gradient(to bottom, #1B5BBE 20%, #92B9F5 80%) fixed no-repeat;
+     background-size: cover;
+}
+.p1{
+	position: absolute;
+	top: 14%;
+	left: 40%;
+	font-size: 35px;
+}
+.nume1{
+position: absolute;
+    top: 26%;
+	left: 46.4%; 
+	width: 127px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.b1{
+	position: absolute;
+	top: 50%;
+	left: 41%;
+	font-size: 35px;
+}
+.busqueda{
+position: absolute;
+    top: 62%;
+	left: 45.7%; 
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+}
+.ingri{
+	position: absolute;
+	top: 34%;
+	left: 48%;
+	width: 100px; 
+	height: 50px;
+    z-index: 10;
+    background: #4CC9DC;
+    border-radius: 20px; border;"
+}
+.busi{
+	position: absolute;
+	top: 70%;
+	left: 48%;
+	width: 100px; 
+	height: 50px;
+    z-index: 10;
+    background: #4CC9DC;
+    border-radius: 20px; border;"
+}
