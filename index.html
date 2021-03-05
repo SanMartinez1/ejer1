@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="susti1.css">
+
+</head>
+<body>
+
+</body>
+<form>
+		<center>
+		<div class="principal">
+
+		<h1 class="p1">Coloque un numero.</h1><br><br>
+
+		<input type="number" name="entrada" placeholder="Ingrese su número" id="inicio" class="nume1">
+
+		<input type="button" name="ingresar" value="Ingresar" id="ingresar" class="ingri" onclick="ingri()">
+		</div>
+		<br>
+
+
+		<div class="principal">
+
+
+		<h1 class="b1">Buscar respuesta:</h1><br>
+
+		<input type="number" name="resultado" id="resultado" placeholder="El numero mas grande" class="busqueda">
+
+		<input type="button" name="mostrar" value="Buscar" id="mostrar" class="busi" onclick="numbergran()">
+
+		</div>
+	    </center>
+
+
+
+<button onclick="acti3()" style="position: absolute;top: 83%; left: 85%; width: 150px; height: 100px; z-index: 10; background: #8792A0; border-radius: 20px; border;"> Actividad 2. </button>
+</div>
+<script>
+    function acti3() {
+        window.location.href = "https://sanmartinez1.github.io/ejer2/";
+            }
+</script>
+
+
+<script>
+var soyvector=[];
+
+var numeros=0;
+
+var	mayor;
+
+
+var a=document.getElementById('inicio');
+
+function ingri(){
+
+	if(numeros<5)
+	{
+
+		if (numeros==0){
+			mayor=parseInt(a.value);
+		}
+
+		else if(a.value>mayor)
+		{
+			mayor=parseInt(a.value);
+		}
+
+		console.log(mayor);
+
+		numeros+=1;
+
+		soyvector[numeros]=a.value;
+	}
+		
+}
+
+function numbergran()
+{
+	document.getElementById('resultado').value=mayor;
+}
+</script>
+</html>
